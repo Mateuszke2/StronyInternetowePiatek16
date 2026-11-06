@@ -1,0 +1,54 @@
+/* === Reset i zmienne === */
+:root {
+  --color-primary: #007bff;
+  --color-accent: #17a2b8;
+  --color-highlight: #ffc107;
+  --color-bg: #26263b;
+  --color-text: #e0e0e0;
+  --color-border: #444;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: var(--color-text);
+}
+
+.player-card{
+  max-width: 500px;
+  background-color: var(--color-bg);
+  margin: 50px auto;
+  padding: 20px;
+  border: 5px solid var(--color-primary);
+}
+
+.card-header{
+  text-align: center;
+  background-color: var(--color-primary);
+  padding:10px;
+}
+.card-header p{
+  font-weight: bold;
+}
+
+.card-section{
+  border: 2px solid var(--color-border);
+  margin-top:20px;
+  padding:20px;
+  border-radius: 10px;
+}
+
+.bio{
+  border-left: 5px solid green;
+}
+
+.eq{
+  border-left: 5px solid red;
+}
+
